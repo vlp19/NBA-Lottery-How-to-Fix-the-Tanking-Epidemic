@@ -1,7 +1,6 @@
 # NBA Tanking Prevention: A Neural Network & Monte Carlo Simulation Approach
 ## Project Overview:
 This project addresses the critical issue of tanking in the NBA. It aims to give a general solution to what has hitherto been a race to last place for many suffering teams.
-Methodology
 Our solution integrates a multi-pronged analytical pipeline:
 
 ### Data Collection & Feature Engineering: 
