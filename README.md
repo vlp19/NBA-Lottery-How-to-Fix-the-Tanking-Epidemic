@@ -14,7 +14,7 @@ and 'non-tanking' seasons. The network utilizes the PAI, win percentage, average
 ($T_p$) between 0 and 1.
 
 ### Monte Carlo Simulation for Policy Evaluation: 
-We developed a Monte Carlo simulation engine to model the NBA Draft Lottery under various policy interventions. 
+We developed a Monte Carlo simulation engine to model the sports draft lottery under various policy interventions. 
 This engine takes the $T_p$ values from the neural network and simulates different 'tax levels' (e.g., Gentle, Moderate, Aggressive). 
 Each tax level penalizes tanking teams following this heirarchy:
 - #### Gentle:
@@ -38,7 +38,7 @@ Non-tanking teams, particularly those with mid-to-lower lottery seeds (e.g., 6th
 of securing the first pick under aggressive tax levels. This supports legitimate rebuilding efforts without penalizing teams for genuine struggles.
 
 ### Optimal Policy Insights: 
-The project provides a quantitative framework for the NBA to choose an optimal tax level that balances 
+The project provides a quantitative framework for the sports to choose an optimal tax level that balances 
 discouraging tanking with maintaining fair competitive balance. The results suggest that 'Moderate' to 'Aggressive' tax rates are highly effective.
 
 ## Technologies Used
@@ -52,6 +52,6 @@ torch: Neural network development and training
 seaborn, matplotlib: Data visualization
 
 ## Conclusion
-This project demonstrates a robust, data-driven methodology to combat NBA tanking. 
+This project demonstrates a robust, data-driven methodology to combat sports tanking. 
 Using the combination of behavioral classification in machine learning for a binary classifier neural network and policy testing with monte carlo simulations,
 we explore how a "tax and redistribute" model to effectively penalize tanking while maintaining fairness. It is found that aggressive tax models successfully flatten draft odds. This effectively eliminates the advantage of holding the absolute worst record and rewards legitimate rebuilding efforts across the league.
