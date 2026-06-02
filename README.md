@@ -54,5 +54,4 @@ seaborn, matplotlib: Data visualization
 ## Conclusion
 This project demonstrates a robust, data-driven methodology to combat NBA tanking. 
 Using the combination of behavioral classification in machine learning for a binary classifier neural network and policy testing with monte carlo simulations,
-we explore how a "tax and redistribute" model to effectively penalize tanking while maintaining fairness. It is found that 
-
+we explore how a "tax and redistribute" model to effectively penalize tanking while maintaining fairness. It is found that aggressive tax models successfully flatten draft odds. This effectively eliminates the advantage of holding the absolute worst record and rewards legitimate rebuilding efforts across the league.
